@@ -22,7 +22,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Prdouct Screenshot](https://uploads-ssl.webflow.com/60df3f87e49b4c557421044a/60df563b02ff82eeb2bb815f_Frame%207-p-800.png)
+<p align="center">
+  <img src="https://uploads-ssl.webflow.com/60df3f87e49b4c557421044a/60df563b02ff82eeb2bb815f_Frame%207-p-800.png"></img>
+</p>
 
 This repository contains a <b>Rapid API Node SDK</b> built for this project specifically. The server API has been divded into the following sub-modules:
 * auth
