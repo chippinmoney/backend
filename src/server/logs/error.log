@@ -1,0 +1,18 @@
+2021-05-26T13:25:22.636Z ERROR: {"origin":"post: /auth/signup/verify","data":{"name":"Shikhar Vaish","email":"shikhar.vaish90@gmail.com","password":"$2a$10$Mi5LC399Tn.bOrvQssK1DutDR6UcQMTOJ2H15.WxWMlkbg6iDIP6W"},"error":"ValidationError: username: Path `username` is required."}
+2021-05-26T13:25:24.793Z ERROR: {"origin":"post: /auth/signup/verify","data":{"name":"Shikhar Vaish","email":"shikhar.vaish90@gmail.com","password":"$2a$10$Mi5LC399Tn.bOrvQssK1DutDR6UcQMTOJ2H15.WxWMlkbg6iDIP6W"},"error":"ValidationError: username: Path `username` is required."}
+2021-05-26T13:28:11.881Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-05-26T13:28:32.178Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-05-26T13:29:04.306Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-05-26T13:29:24.364Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-05-26T13:31:59.117Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-05-26T13:36:09.973Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-05-26T13:38:18.464Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-05-26T13:38:30.756Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-05-26T13:41:01.338Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-05-26T13:42:09.751Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-06-05T15:52:15.431Z ERROR: {"origin":"post: /deployment/register","data":{"email":"shikhar.vaish90@gmail.com","label":"test0","registryLocation":"svr8/test-docker","machineCount":5},"error":"ValidationError: maximumStorageLimit: Path `maximumStorageLimit` is required."}
+2021-06-05T15:54:13.483Z ERROR: {"origin":"post: /deployment/register","data":{"email":"shikhar.vaish90@gmail.com","label":"test0","registryLocation":"svr8/test-docker","machineCount":5},"error":"ValidationError: maximumStorageLimit: Path `maximumStorageLimit` is required."}
+2021-06-05T15:55:41.325Z ERROR: {"origin":"post: /deployment/register","data":{"email":"shikhar.vaish90@gmail.com","label":"weee","registryLocation":"svr8/test-docker","machineCount":5},"error":"ValidationError: maximumStorageLimit: Path `maximumStorageLimit` is required."}
+2021-06-11T19:31:24.775Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-06-11T19:31:24.882Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
+2021-07-01T16:33:32.035Z ERROR: {"status":4,"responseCode":"REQ3","data":{}}
