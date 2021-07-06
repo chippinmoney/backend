@@ -62,7 +62,7 @@ class WalletHandler {
     console.log('post: fund/wallet-wallet')
     const {amount, sourceWalletId, destinationWalletId} = req.body
 
-    const apiResponse = await rapydClient.getIssuedCards(amount, sourceWalletId, destinationWalletId)
+    const apiResponse = await rapydClient.transferFromToWallet(amount, sourceWalletId, destinationWalletId)
     res.status(apiResponse.statusCode).send(apiResponse.result)
   }
 

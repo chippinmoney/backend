@@ -4,10 +4,18 @@ const { UserController } = require('../../controllers/UserController')
 const { verifyEmailFormat, isEmpty, verifyMinimumLength } = require('../../util/String')
 const { RequestResponse, AuthResponse } = require('../../../config/responseCode')
 const { adminList, MIN_PASSWORD_LENGTH, SIGNIN_EXPIRY_TIME } = require('../../../config/auth')
+const { RAPYD_API } = require('../../../config/rapyd')
 
 const Log = new Logger()
 
 const userController = new UserController()
+
+const config = {
+    secret_key: RAPYD_API.secret_key,
+    access_key: RAPYD_API.access_key
+  }
+  
+  const rapydClient = new RapydClient(config)
 
 class AuthHandler {
 
@@ -101,6 +109,14 @@ class AuthHandler {
                 // send confirmation email
                 const mailResponse = await userController.sendAccountConfirmationEmail(name, email)
                 Log.info(mailResponse)
+
+                // create wallet
+                const splitName = name.split(' ')
+                const first_name = splitName[0] ? splitName[0] : ''
+                const last_name = splitName[1] ? splitName[1] : ''
+                const apiResponse = await rapydClient.createWallet(first_name, last_name)
+                const ewalletId = apiResponse.id
+                userController.updateOneByEmail(email, {ewalletId})
                 
                 // commit all changes to database
                 await mongooseSession.commitTransaction()
