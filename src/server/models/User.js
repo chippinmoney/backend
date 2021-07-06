@@ -3,8 +3,11 @@ const Schema = mongoose.Schema
 
 const UserSchema = new Schema({
   name: {type: String, required: true, unique: false},
+  first_name: {type: String },
+  last_name: {type: String },
   email: {type: String, required: true, unique: true},
   password: {type: String, required: true, unique: false},
+  ewalletId: {type: String},
   metadata: {type: Schema.Types.Mixed}
 })
 
