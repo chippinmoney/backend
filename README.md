@@ -10,8 +10,7 @@
   <p align="center">
     making group payments easier
     <br />
-    <a href="https://github.com/chippinmoney/backend/blob/main/api_reference/api.pdf"><strong>API Docs »</strong></a>
-    <br />
+    <a href="https://github.com/chippinmoney/backend/blob/main/api_reference/api.pdf"><strong>API Docs »</strong></a>  ·
     <a href="https://github.com/chippinmoney/docs/blob/main/README.md"><strong>API Reference »</strong></a>
     <br />
     <br />
