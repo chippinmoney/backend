@@ -60,7 +60,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a Rapyd API Keys from [Rapyd API](https://docs.rapyd.net/build-with-rapyd/docs/getting-started)
+1. Get Rapyd API Keys following [official Rapyd API documentation](https://docs.rapyd.net/build-with-rapyd/docs/getting-started)
 2. Clone the repo `git clone https://github.com/chippinmoney/backend.git`
 3. Install NPM packages
    `npm install`
