@@ -5,7 +5,7 @@
     <img src="https://uploads-ssl.webflow.com/60df3f87e49b4c557421044a/60e0c8679137b95f17a6752b_Frame%208.png" alt="Logo" width="160" height="120">
   </a>
 
-  <h3 align="center">Chippin Club</h3>
+  <h3 align="center">Chippin</h3>
 
   <p align="center">
     making group payments easier
